@@ -134,8 +134,8 @@ public class NewPayeeDefinitions {
 
 	@When("fill out the new payee details")
 	public void fill_out_the_new_payee_details() {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(payee_name)).sendKeys("Siddharth");
-		wait.until(ExpectedConditions.visibilityOfElementLocated(payee_address)).sendKeys("1,abc street");
+		wait.until(ExpectedConditions.visibilityOfElementLocated(payee_name)).sendKeys("Ashutosh");
+		wait.until(ExpectedConditions.visibilityOfElementLocated(payee_address)).sendKeys("Sohan fortune,Near varthur police station");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(account)).sendKeys("saving");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(payee_details)).sendKeys("dfsfsdfdsf");
 		
